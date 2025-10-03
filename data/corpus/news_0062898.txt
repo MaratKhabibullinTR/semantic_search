@@ -1,0 +1,17 @@
+New York launches drills to thwart election hacking
+
+NEW YORK (Reuters) - Federal and New York state officials say they will hold drills in the weeks leading up to primary elections for the U.S. House and Senate to prevent hacking and other cyber threats to voting systems, officials said on Wednesday.
+The exercises, which will begin in Albany on Thursday, come amid heightened scrutiny of the nation’s voting systems following Russian hacking in the 2016 U.S. presidential election.
+“The people of New York deserve an open, transparent election process they can trust, and these exercises are an integral part of restoring voter confidence and the integrity of our election infrastructure,” Governor Andrew Cuomo said in a statement.
+Russian hackers probed systems in 21 states during the presidential race, but only a small number of networks were compromised, the Department of Homeland Security (DHS) said last year. There is no evidence any vote was altered.
+New York elections officials have said the state was not among those with compromised systems.
+The U.S. Department of Homeland Security and New York’s State Board of Elections will host the cyber security meetings in six New York regions through June 18, about a week ahead of the state’s federal primary elections. Other New York officials, as well as local government workers and state police, will attend the closed-door meetings.
+The exercises involve simulations of potential voting system attacks, including so-called ransomware computer infections and social media manipulation - in which false information aimed at skewing elections is posted online.
+New York will be the first in the nation to hold such meetings, Cuomo’s office said.
+The state’s cyber security drills are among the early phases a multi-pronged elections security program approved on May 3.
+The broader plan will rely on $5 million in state funds and up to roughly $19.5 million in federal grants made available in response to Russian election interference.
+Information collected in the exercises will be used to help identify and respond to vulnerabilities and risks surrounding the state’s voting systems, Cuomo’s statement said.
+Reporting by Laila Kearney; Editing by Daniel Bases and Lisa Shumaker
+Our Standards: The Thomson Reuters Trust Principles. 0 : 0 narrow-browser-and-phone medium-browser-and-portrait-tablet landscape-tablet medium-wide-browser wide-browser-and-larger medium-browser-and-landscape-tablet medium-wide-browser-and-larger above-phone portrait-tablet-and-above above-portrait-tablet landscape-tablet-and-above landscape-tablet-and-medium-wide-browser portrait-tablet-and-below landscape-tablet-and-below Apps Newsletters Advertise with Us Advertising Guidelines Cookies Terms of Use Privacy
+All Quote: s delayed a minimum of 15 minutes. See here for a complete list of exchanges and delays.
+© 2018 Reuters. All Rights Reserved.

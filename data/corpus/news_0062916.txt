@@ -1,0 +1,12 @@
+Telegram says Apple has prevented it from updating since April
+
+MOSCOW (Reuters) - Apple has prevented the Telegram messaging service from updating globally ever since Russia ordered Apple to remove the service from its stores, Telegram’s CEO and founder said on Thursday.
+The Telegram app logo is seen on a smartphone in this picture illustration taken September 15, 2017. REUTERS/Dado Ruvic/Illustration/Files Two protest rallies were organised in Russia’s capital this month, with the demonstrators chanting anti-government slogans and carrying signs against what they called internet censorship, following Moscow’s decision to block the popular messaging service.
+Russia’s Federal Security Service (FSB) has said it needs to guard against security threats such as terrorist attacks. Telegram is challenging the block in Russian courts.
+“Russia banned Telegram on its territory in April because we refused to provide decryption keys for all our users’ communications to Russia’s security agencies. We believe we did the only possible thing, preserving the right of our users to privacy in a troubled country,” Pavel Durov, a pioneer of Russian social media, said on his official Telegram Channel.
+While Russia makes up only 7 percent of Telegram’s user base, Apple is restricting updates for all Telegram users around the world, Durov said.
+“As a result, we’ve also been unable to fully comply with the General Data Protection Regulation (GDPR) for our EU-users by the deadline of May 25, 2018. We are continuing our efforts to resolve the situation”, he said.
+Apple did not immediately respond to requests for comment.
+GDPR is the European Union regulation on data protection and privacy for all individuals within EU, also addressing the export of personal data outside the EU.
+Reporting and Writing by Denis Pinchuk; Editing by John Stonestreet and Mark Potter
+ 

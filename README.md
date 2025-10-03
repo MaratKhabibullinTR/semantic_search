@@ -1,0 +1,28 @@
+## Dataset
+https://www.kaggle.com/datasets/jeet2016/us-financial-news-articles
+
+## Install
+``` bash
+poetry install
+```
+
+## Reindex
+```bash
+poetry run python -m server_cli reindex --input data/corpus --out data/index --model "all-MiniLM-L12-v2"
+```
+
+## Search
+```bash
+poetry run python -m server_cli search --index data/index --query "revenue growth" --k 8
+```
+
+## Build dataset
+```bash
+poetry run python -m server_cli convert-json-corpus-to-txt
+```
+
+## MCP stdio server
+```bash
+poetry run python -m server_mcp_stdio
+```
+Then hook it into your MCP host configuration. Tools: `reindex`, `search`.
