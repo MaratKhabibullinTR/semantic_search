@@ -1,0 +1,10 @@
+{
+	"servers": {
+		"rag-mcp-skeleton": {
+			"type": "stdio",
+			"command": "poetry",
+			"args": ["-C", "${workspaceFolder}", "run", "python", "-m", "server_mcp_stdio"]
+		}
+	},
+	"inputs": []
+}

@@ -3,11 +3,13 @@ Requires the `mcp` Python package. Adjust imports if the API changes.
 """
 from pathlib import Path
 import json
+import anyio
 
 try:
-    from mcp.server import Server
+    from mcp.server import Server, NotificationOptions
     from mcp.types import Tool, TextContent
     from mcp.server.stdio import stdio_server
+    from mcp.server.models import InitializationOptions
 except Exception as e:
     raise SystemExit(
         "The 'mcp' package is required. Try: 'poetry add mcp' or pin a version matching your host.\n"
@@ -72,6 +74,21 @@ async def call_tool(name: str, arguments: dict):
 
     raise ValueError(f"Unknown tool: {name}")
 
+async def main():
+    async with stdio_server() as (read_stream, write_strem):
+        await server.run(
+            read_stream=read_stream,
+            write_stream=write_strem,
+            initialization_options=InitializationOptions(
+                server_name="rag-mcp-skeleton",
+                server_version="0.1.0",
+                capabilities=server.get_capabilities(
+                    notification_options=NotificationOptions(),
+                    experimental_capabilities={},
+                ),
+            )
+        )
 
 if __name__ == "__main__":
-    stdio_server(server).run()
+    anyio.run(main)
+    # stdio_server(server).run()
