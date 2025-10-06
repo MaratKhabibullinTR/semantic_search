@@ -26,3 +26,13 @@ poetry run python -m server_cli convert-json-corpus-to-txt
 poetry run python -m server_mcp_stdio
 ```
 Then hook it into your MCP host configuration. Tools: `reindex`, `search`.
+
+
+## Streamlit App
+
+The project includes a Streamlit web application for testing text splitters/sentencizers.
+
+```bash
+# Run the Streamlit app
+streamlit run streamlit_app.py
+```

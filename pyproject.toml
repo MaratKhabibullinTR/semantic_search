@@ -19,7 +19,11 @@ dependencies = [
     "mcp (>=1.15.0,<2.0.0)",
     "pydantic-settings (>=2.11.0,<3.0.0)",
     "python-json-logger (>=3.3.0,<4.0.0)",
-    "pytest (>=8.4.2,<9.0.0)"
+    "pytest (>=8.4.2,<9.0.0)",
+    "streamlit (>=1.28.0,<2.0.0)",
+    "spacy (>=3.7.0,<4.0.0)",
+    "langchain-text-splitters (>=0.3.0,<1.0.0)",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
 ]
 
 [tool.poetry]
