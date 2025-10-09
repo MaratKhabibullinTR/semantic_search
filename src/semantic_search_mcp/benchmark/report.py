@@ -33,18 +33,10 @@ def _ndcg_at_k(relevances: List[int], k: int) -> float:
     return float(dcg / idcg) if idcg > 0 else 0.0
 
 
-def _mrr_at_k(relevances: List[int], k: int) -> float:
-    for i, r in enumerate(relevances[:k], start=1):
-        if r > 0:
-            return 1.0 / i
-    return 0.0
-
-
 def quality_with_qrels(
     cfg: AppConfig, qrels_path: Path, out_dir: Path, top_k: int
 ) -> pd.DataFrame:
     qrels = _read_qrels(qrels_path)
-    combos = [combo_id(x['chunker'], x['embedding']) for x in cfg.indexing.combinations]
     records = []
 
     for row in qrels:
@@ -60,7 +52,6 @@ def quality_with_qrels(
                 "combo": cid,
                 "query": query,
                 "recall@k": float(sum(relevances) / max(1, len(rel_ids))),
-                "mrr@k": _mrr_at_k(relevances, top_k),
                 "ndcg@k": _ndcg_at_k(relevances, top_k),
             }
             records.append(rec)
