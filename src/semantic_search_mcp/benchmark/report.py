@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from .query import run_query
 from .config import AppConfig
-from ..utils import ensure_dir, combo_id
+from ..utils import ensure_dir
 
 
 def _read_qrels(path: Path) -> List[Dict]:
@@ -19,18 +19,6 @@ def _read_qrels(path: Path) -> List[Dict]:
                 continue
             rows.append(json.loads(ln))
     return rows
-
-
-def _dcg(gains: List[int]) -> float:
-    return sum((g / np.log2(i + 2) for i, g in enumerate(gains)))
-
-
-def _ndcg_at_k(relevances: List[int], k: int) -> float:
-    rel = relevances[:k]
-    ideal = sorted(relevances, reverse=True)[:k]
-    dcg = _dcg(rel)
-    idcg = _dcg(ideal)
-    return float(dcg / idcg) if idcg > 0 else 0.0
 
 
 def quality_with_qrels(
@@ -52,14 +40,13 @@ def quality_with_qrels(
                 "combo": cid,
                 "query": query,
                 "recall@k": float(sum(relevances) / max(1, len(rel_ids))),
-                "ndcg@k": _ndcg_at_k(relevances, top_k),
             }
             records.append(rec)
 
     df = pd.DataFrame(records)
     agg = (
         df.groupby("combo")
-        .agg({"recall@k": "mean", "mrr@k": "mean", "ndcg@k": "mean"})
+        .agg({"recall@k": "mean"})
         .reset_index()
     )
     ensure_dir(out_dir)
@@ -67,9 +54,8 @@ def quality_with_qrels(
     agg.to_csv(out_dir / "summary_metrics.csv", index=False)
 
     # Bar plot (one figure per metric, saved to files)
-    for metric in ["recall@k", "mrr@k", "ndcg@k"]:
+    for metric in ["recall@k"]:
         plt.figure()
-        ax = agg.plot(kind="bar", x="combo", y=metric, legend=False)
         plt.title(metric)
         plt.tight_layout()
         plt.savefig(out_dir / f"{metric}.png")
