@@ -25,7 +25,8 @@ dependencies = [
     "langchain-text-splitters (>=0.3.0,<1.0.0)",
     "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
     "boto3 (>=1.40.47,<2.0.0)",
-    "matplotlib (>=3.10.6,<4.0.0)"
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "transformers (==4.55.4)"
 ]
 
 [tool.poetry]
