@@ -1,39 +1,46 @@
-## Dataset
-https://www.kaggle.com/datasets/jeet2016/us-financial-news-articles
+## Requirements
+- poetry: https://python-poetry.org/docs/#installation
+- python: >=3.11
 
 ## Install
 ``` bash
 poetry install
 ```
 
-## Reindex
+## Dataset
+https://www.kaggle.com/datasets/jeet2016/us-financial-news-articles
+
+### Convert json dataset to text
 ```bash
-poetry run python -m server_cli reindex --input data/corpus --out data/index --model "all-MiniLM-L12-v2"
+poetry run python -m server_cli convert-json-corpus-to-txt
 ```
 
-## Benchamrk - Index All
+## Benchmark
+
+### Index
 ```bash
 poetry run python -m server_cli index-all --config benchmark_config.yaml
 ```
 
-## Benchmark - Query
+### Query
 ```bash
 poetry run python -m server_cli query --config benchmark_config.yaml --query "revenue growth"
 ```
 
-## Benchmark - Report
+### Report
 ```bash
 poetry run python -m server_cli report --config benchmark_config.yaml --qrels qrels.jsonl
 ```
 
-## Search
+## Experiments
+### Reindex
 ```bash
-poetry run python -m server_cli search --index data/index --query "revenue growth" --k 8
+poetry run python -m server_cli reindex --input data/corpus --out data/index --model "all-MiniLM-L12-v2"
 ```
 
-## Build dataset
+### Query
 ```bash
-poetry run python -m server_cli convert-json-corpus-to-txt
+poetry run python -m server_cli search --index data/index --query "revenue growth" --k 8
 ```
 
 ## MCP stdio server

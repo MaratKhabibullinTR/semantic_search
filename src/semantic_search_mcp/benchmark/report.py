@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from .query import run_query
 from .config import AppConfig
-from ..utils import ensure_dir
+from ..utils import ensure_dir, combo_id
 
 
 def _read_qrels(path: Path) -> List[Dict]:
@@ -44,7 +44,7 @@ def quality_with_qrels(
     cfg: AppConfig, qrels_path: Path, out_dir: Path, top_k: int
 ) -> pd.DataFrame:
     qrels = _read_qrels(qrels_path)
-    combos = [f"{x['chunker']}__{x['embedding']}" for x in cfg.indexing.combinations]
+    combos = [combo_id(x['chunker'], x['embedding']) for x in cfg.indexing.combinations]
     records = []
 
     for row in qrels:

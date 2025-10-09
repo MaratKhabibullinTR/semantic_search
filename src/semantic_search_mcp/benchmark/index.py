@@ -17,7 +17,7 @@ from semantic_search_mcp.dataset import load_local, load_s3, Document
 from semantic_search_mcp.embedders import make_embeder
 
 
-def load_corpora(cfg: AppConfig) -> Iterable[Document]:
+def _load_corpora(cfg: AppConfig) -> Iterable[Document]:
     for c in cfg.corpora:
         if c.type == "local":
             yield from load_local(c.path)
@@ -88,7 +88,7 @@ def index_all(cfg: AppConfig):
         raise NotImplementedError(f"No storage for: {cfg.storage.backend}")
 
     # materialize corpus into memory
-    docs = list(load_corpora(cfg))
+    docs = list(_load_corpora(cfg))
     if not docs:
         raise RuntimeError("No documents found in the corpus.")
 

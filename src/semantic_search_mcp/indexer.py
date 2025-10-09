@@ -45,15 +45,15 @@ def build_index(
             records.append(
                 {
                     "id": len(records),
-                    "path": str(f),
-                    "chunk_index": i,
-                    "text": ch["text"],
+                    "source": str(f),
+                    "chunk_idx": i,
+                    "chunk": ch["text"],
                 }
             )
 
     # 2) Embed
     embedder = LocalEmbedder(model_name=emb_model, normalize=normalize)
-    texts = [r["text"] for r in records]
+    texts = [r["chunk"] for r in records]
     mat = embedder.encode(texts)  # (N, D) float32
 
     # 3) FAISS (cosine via inner product on normalized vectors)
@@ -82,7 +82,7 @@ def build_index(
 
         corpus_tokens: List[List[str]] = []
         for r in records:
-            t = strip_accents_ascii(r["text"]) if r["text"] else ""
+            t = strip_accents_ascii(r["chunk"]) if r["chunk"] else ""
             corpus_tokens.append(_simple_tokens(t))
         bm25 = BM25Okapi(corpus_tokens)
         with bm25_path.open("wb") as f:

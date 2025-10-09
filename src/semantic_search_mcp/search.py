@@ -123,14 +123,11 @@ def hybrid_search(
         out.append(
             {
                 "score": float(scores[order.tolist().index(dense_idxs.tolist().index(ridx))]) if len(order) else 0.0,
-                "path": rec["path"] if "path" in rec else None,
-                "chunk_index": rec["chunk_index"] if "chunk_index" in rec else None,
-                "text": (rec["text"][:600] + ("…" if len(rec["text"]) > 600 else "") ) if "text" in rec else None,
-
                 "source": rec["source"] if "source" in rec else None,
-                "doc_id": rec["doc_id"] if "doc_id" in rec else None,
+                "chunk": (rec["chunk"][:600] + ("…" if len(rec["chunk"]) > 600 else "") ) if "chunk" in rec else None,
                 "chunk_idx": rec["chunk_idx"] if "chunk_idx" in rec else None,
-                "chunk": rec["chunk"] if "chunk" in rec else None,
+
+                "doc_id": rec["doc_id"] if "doc_id" in rec else None,
                 "chunker_id": rec["chunker_id"] if "chunker_id" in rec else None,
                 "embedding_id": rec["embedding_id"] if "embedding_id" in rec else None,
 

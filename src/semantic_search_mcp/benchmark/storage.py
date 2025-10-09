@@ -4,6 +4,7 @@ from pathlib import Path
 import shutil
 import os
 
+from semantic_search_mcp.benchmark.config import AppConfig
 from semantic_search_mcp.utils import is_dir_empty
 
 
@@ -35,3 +36,10 @@ class LocalFaissStorage(StorageBackend):
         if not p.exists():
             raise FileNotFoundError(f"Index not found: {p}")
         return p
+
+
+def get_storage(cfg: AppConfig):
+    if cfg.storage.backend == "faiss_local":
+        return LocalFaissStorage(Path(cfg.storage.output_dir))
+    else:
+        raise ValueError(f"Unknown storage backend: {cfg.storage.backend}")
