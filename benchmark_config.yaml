@@ -1,0 +1,46 @@
+corpora:
+  - type: local
+    path: ./data/corpus
+
+chunkers:
+  - id: spacy_sents
+    type: spacy
+    spacy_model: en_core_web_sm
+    chunk_size: 1000
+    chunk_overlap: 100
+  - id: recursive_1k
+    type: recursive
+    chunk_size: 1000
+    chunk_overlap: 100
+
+embeddings:
+  - id: minilm
+    type: sentence_transformers
+    model_name: sentence-transformers/all-MiniLM-L6-v2
+  # - id: openai_small
+  #   type: openai
+  #   model_name: text-embedding-3-small
+  # - id: titan_v2
+  #   type: bedrock
+  #   model_name: amazon.titan-embed-text-v2:0
+
+storage:
+  backend: faiss_local
+  output_dir: ./indexes
+  # s3_bucket: my-bucket
+  # s3_prefix: chunker-bench/indexes
+
+indexing:
+  combinations:
+    - chunker: spacy_sents
+      embedding: minilm
+    - chunker: recursive_1k
+      embedding: minilm
+  parallelism: 1
+  batch_size: 256
+
+query:
+  top_k: 5
+
+report:
+  top_k: 10

@@ -11,6 +11,21 @@ poetry install
 poetry run python -m server_cli reindex --input data/corpus --out data/index --model "all-MiniLM-L12-v2"
 ```
 
+## Benchamrk - Index All
+```bash
+poetry run python -m server_cli index-all --config benchmark_config.yaml
+```
+
+## Benchmark - Query
+```bash
+poetry run python -m server_cli query --config benchmark_config.yaml --query "revenue growth"
+```
+
+## Benchmark - Report
+```bash
+poetry run python -m server_cli report --config benchmark_config.yaml --qrels qrels.jsonl
+```
+
 ## Search
 ```bash
 poetry run python -m server_cli search --index data/index --query "revenue growth" --k 8
@@ -34,5 +49,5 @@ The project includes a Streamlit web application for testing text splitters/sent
 
 ```bash
 # Run the Streamlit app
-streamlit run streamlit_app.py
+poetry run streamlit run streamlit_app.py
 ```

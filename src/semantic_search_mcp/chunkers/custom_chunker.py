@@ -1,5 +1,10 @@
-from typing import List, Dict, Callable
+from typing import List, Dict, Callable, Any
 import regex as re
+import logging
+
+from langchain_text_splitters.base import TextSplitter
+
+logger = logging.getLogger(__name__)
 
 # Tokenizer primitives
 _WORD_RE = re.compile(r"\w+", re.UNICODE)
@@ -121,3 +126,22 @@ def chunk_text(
     # flush trailing buffer
     flush()
     return chunks
+
+
+class CustomTextSplitter(TextSplitter):
+    def __init__(
+        self,
+        tokens_per_chunk: int,
+        overlap: int = 0,
+        **kwargs: Any,
+    ) -> None:
+        super().__init__(**kwargs)
+        self._tokens_per_chunk = tokens_per_chunk
+        self._overlap = overlap
+
+    def split_text(self, text: str) -> list[str]:
+        chunks = chunk_text(
+            text=text,
+            tokens_per_chunk=self._tokens_per_chunk,
+            overlap=self._overlap)
+        return [ch["text"] for ch in chunks]

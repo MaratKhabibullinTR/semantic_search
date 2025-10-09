@@ -39,7 +39,7 @@ async def call_tool(name: str, arguments: dict):
     if name == "reindex":
         input_dir = Path(arguments.get("input", "data/corpus"))
         out_dir = Path(arguments.get("out", "data/index"))
-        model = arguments.get("model", "paraphrase-multilingual-MiniLM-L12-v2")
+        model = arguments.get("model", "all-MiniLM-L12-v2")
         chunk_tokens = int(arguments.get("chunk_tokens", 500))
         chunk_overlap = int(arguments.get("chunk_overlap", 80))
         enable_bm25 = bool(arguments.get("enable_bm25", True))
@@ -65,7 +65,7 @@ async def call_tool(name: str, arguments: dict):
         index_dir = Path(arguments.get("index", "data/index"))
         query = arguments["query"]
         k = int(arguments.get("k", 8))
-        model = arguments.get("model", "paraphrase-multilingual-MiniLM-L12-v2")
+        model = arguments.get("model", "all-MiniLM-L12-v2")
         alpha_dense = float(arguments.get("alpha_dense", 0.6))
         mmr = bool(arguments.get("mmr", True))
 

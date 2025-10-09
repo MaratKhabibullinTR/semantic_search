@@ -6,7 +6,7 @@ from pathlib import Path
 class Config(BaseSettings):
     # Embeddings
     emb_model: str = Field(
-        default="paraphrase-multilingual-MiniLM-L12-v2",
+        default="all-MiniLM-L12-v2",
         description="Sentence-Transformers model",
     )
     emb_batch_size: int = 64

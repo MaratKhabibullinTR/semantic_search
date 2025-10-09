@@ -6,11 +6,10 @@ import faiss
 from rank_bm25 import BM25Okapi
 
 from .embedders import LocalEmbedder
-from .chunker import chunk_text
+from .chunkers.custom_chunker import chunk_text
 
 
 def _read_text_file(p: Path) -> str:
-    # naive reader; extend to handle .md/.txt/.rtf/etc.
     return p.read_text(encoding="utf-8", errors="ignore")
 
 
@@ -24,7 +23,7 @@ def discover_files(input_dir: Path, exts=(".txt", ".md")) -> List[Path]:
 def build_index(
     input_dir: Path,
     out_dir: Path,
-    emb_model: str = "paraphrase-multilingual-MiniLM-L12-v2",
+    emb_model: str = "all-MiniLM-L12-v2",
     chunk_tokens: int = 500,
     chunk_overlap: int = 80,
     normalize: bool = True,

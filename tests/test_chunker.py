@@ -2,7 +2,7 @@ import re
 
 import pytest
 
-from semantic_search_mcp.chunker import chunk_text
+from semantic_search_mcp.chunkers.custom_chunker import chunk_text
 
 
 _WORD_RE = re.compile(r"\w+", re.UNICODE)

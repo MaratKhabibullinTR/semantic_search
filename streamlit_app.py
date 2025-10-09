@@ -1,14 +1,13 @@
 import streamlit as st
 import os
 from pathlib import Path
-from typing import List, Union
+from typing import List
 import spacy
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from semantic_search_mcp.chunkers import make_chunker
 
 # Configure page
 st.set_page_config(
     page_title="Sentence Splitter Demo",
-    page_icon="📝",
     layout="wide"
 )
 
@@ -63,10 +62,10 @@ def main():
     # Sidebar for configuration
     st.sidebar.header("Configuration")
     
-    # Sentence splitter selection
     splitter_options = {
         "SpaCy Sentence Splitter": "spacy",
-        "Recursive Character Text Splitter": "recursive"
+        "Recursive Character Text Splitter": "recursive",
+        "Custom Splitter": "custom",
     }
     
     selected_splitter = st.sidebar.selectbox(
@@ -140,20 +139,27 @@ def main():
             
             # Initialize the selected splitter
             try:
-                if splitter_options[selected_splitter] == "spacy":
-                    splitter = SpacySentenceSplitter()
-                    if splitter.nlp is None:
-                        return
-                    sentences = splitter.split_text(text_content)
+                chunker = make_chunker(spec={
+                    "type": splitter_options[selected_splitter],
+                    "spacy_model": "en_core_web_sm",
+                    "chunk_size": 1000,
+                    "chunk_overlap": 100,
+                })
+                sentences = chunker.split_text(text_content)
+                # if splitter_options[selected_splitter] == "spacy":
+                #     splitter = SpacySentenceSplitter()
+                #     if splitter.nlp is None:
+                #         return
+                #     sentences = splitter.split_text(text_content)
                     
-                elif splitter_options[selected_splitter] == "recursive":
-                    splitter = RecursiveCharacterTextSplitter(
-                        chunk_size=chunk_size,
-                        chunk_overlap=chunk_overlap,
-                        length_function=len,
-                        separators=["\n\n", "\n", ". ", " ", ""]
-                    )
-                    sentences = splitter.split_text(text_content)
+                # elif splitter_options[selected_splitter] == "recursive":
+                #     splitter = RecursiveCharacterTextSplitter(
+                #         chunk_size=chunk_size,
+                #         chunk_overlap=chunk_overlap,
+                #         length_function=len,
+                #         separators=["\n\n", "\n", ". ", " ", ""]
+                #     )
+                #     sentences = splitter.split_text(text_content)
                 
                 # Display results
                 st.subheader("Split Results")
