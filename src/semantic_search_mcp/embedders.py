@@ -21,7 +21,7 @@ class LocalEmbedder(BaseEmbedder):
         embs = self.model.encode(texts, batch_size=64, convert_to_numpy=True, normalize_embeddings=self.normalize)
         return embs.astype(np.float32)
 
-@lru_cache(maxsize=2)
+# @lru_cache(maxsize=2)
 def make_embeder(spec: dict) -> BaseEmbedder:
     t = spec["type"]
     model_name = spec["model_name"]

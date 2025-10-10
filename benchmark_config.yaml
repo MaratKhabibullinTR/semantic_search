@@ -13,6 +13,14 @@ chunkers:
     type: recursive
     chunk_size: 1000
     chunk_overlap: 100
+  - id: custom_500_overlap_0
+    type: custom
+    tokens_per_chunk: 500
+    chunk_overlap: 0
+  - id: custom_1000_overlap_0
+    type: custom
+    tokens_per_chunk: 1000
+    chunk_overlap: 0
 
 embeddings:
   - id: minilm
@@ -36,6 +44,10 @@ indexing:
     - chunker: spacy_sents
       embedding: minilm
     - chunker: recursive_1k
+      embedding: minilm
+    - chunker: custom_500_overlap_0
+      embedding: minilm
+    - chunker: custom_1000_overlap_0
       embedding: minilm
   parallelism: 1
   batch_size: 256

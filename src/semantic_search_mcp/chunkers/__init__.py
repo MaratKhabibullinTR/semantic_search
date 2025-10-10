@@ -29,7 +29,7 @@ def make_chunker(spec: dict):
             )
         case "custom":
             tokens_per_chunk = spec.get("tokens_per_chunk", 500)
-            overlap = spec.get("overlap", 0)
+            overlap = spec.get("chunk_overlap", 0)
             return CustomTextSplitter(
                 tokens_per_chunk=tokens_per_chunk,
                 overlap=overlap,

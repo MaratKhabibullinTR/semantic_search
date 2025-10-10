@@ -15,10 +15,11 @@ class CorpusSpec:
 @dataclass
 class ChunkerSpec:
     id: str
-    type: str            # 'spacy' | 'recursive'
+    type: str            # 'spacy' | 'recursive' | custom
     chunk_size: int = 1000
     chunk_overlap: int = 100
     spacy_model: Optional[str] = None
+    tokens_per_chunk: int = 500
 
 @dataclass
 class EmbeddingSpec:
