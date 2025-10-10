@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T02:09:05.5171457Z",
+  "mimetype": "text/plain",
+  "length": 28293,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/26bf209f-741f-4c9e-8cbd-9a5dd70c7f13.json",
+  "summary": "Above All Else: J Hotel Shanghai Tower Welcomes Global Travelers to a Cloud-Piercing Stay",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:255 B:86 B:87 B:88 B:89 B:91 G:1 G:6 G:B1 G:K G:S M:1QD M:1WJ M:1WL M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 N2:ASIA N2:ASXPAC N2:CCOS N2:CN N2:CONPS N2:CONSV N2:CYCS N2:EASIA N2:EMRG N2:ENTS N2:LEN N2:NEWR N2:RELX N2:RESBR N2:SRVCS N2:STAY",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Above All Else: J Hotel Shanghai Tower Welcomes Global Travelers to a Cloud-Piercing Stay",
+      "time": 1751508545330,
+      "timeinms": 1751508545,
+      "pnac": "nPn83MyJQa",
+      "messageid": "Pn83MyJQa_2507032+n0h4NNKmr8xs0IsJi4Xf8bz1QxDrVubzkRcB"
+    }
+  }
+}

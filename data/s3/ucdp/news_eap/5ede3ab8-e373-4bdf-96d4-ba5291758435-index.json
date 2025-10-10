@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T15:02:44.7272166Z",
+  "mimetype": "text/plain",
+  "length": 14124,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/5ede3ab8-e373-4bdf-96d4-ba5291758435.json",
+  "summary": "BRITAIN’S HEYSHAM 2-7 NUCLEAR REACTOR HAS COME BACK ONLINE AFTER OUTAGE-NATIONAL GRID DATA",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:4 B:181 B:182 B:183 B:1836 B:2 B:219 E:5J F:1Y F:5 G:3 G:5M G:7J G:A G:AL G:D3 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:2DZ M:Z U:C U:G R:EDF.PA N2:CDTY N2:CMPNY N2:COM N2:ELEU N2:ELUT N2:EMEA N2:ENER N2:ENFF N2:EUROP N2:EUROPE N2:EZC N2:FR N2:GB N2:LEN N2:NRG N2:NUC N2:NUCPWR N2:PUBL N2:PWR N2:PWRGEN N2:SRVCS N2:STAT N2:UTIL N2:UTIM N2:WEU P:5000041150",
+      "productcodes": "NP:ELE NP:O NP:UKI",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 1,
+      "updatetype": 1,
+      "headline": "BRITAIN’S HEYSHAM 2-7 NUCLEAR REACTOR HAS COME BACK ONLINE AFTER OUTAGE-NATIONAL GRID DATA",
+      "time": 1760108564517,
+      "timeinms": 1760108564,
+      "pnac": "nEMQ87LCQG",
+      "messageid": "EMQ87LCQG_2510101u8V1rUCSpHFRpFvPgRh4pKrmEn9m/CDOcG7AH"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

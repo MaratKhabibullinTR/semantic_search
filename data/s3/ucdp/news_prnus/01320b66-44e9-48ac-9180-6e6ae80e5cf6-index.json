@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:59:15.6558212Z",
+  "mimetype": "text/plain",
+  "length": 28915,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/01320b66-44e9-48ac-9180-6e6ae80e5cf6.json",
+  "summary": "Changes to the Volvo Group Executive Board",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:1 B:1162 B:1263 B:234 B:235 B:236 B:244 B:255 B:40 B:56 B:67 B:71 B:72 E:1 E:4B E:6T E:E G:2 G:3 G:6V G:A G:D3 G:M M:1QD M:1WJ M:1WK M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DZ M:32 M:Z R:VOLVb.ST N2:AUTO N2:BACT N2:BOSS1 N2:CARM N2:CMPNY N2:CONPR N2:CONPS N2:CYCS N2:EMEA N2:EUROP N2:EUROPE N2:FRGT N2:FRTRCK N2:HMAC N2:HTRUCK N2:INDG N2:INDS N2:INDU N2:LEN N2:MACH N2:MAN N2:MNGISS N2:NEWR N2:NORD N2:PPLMOV N2:PUBL N2:RRLF N2:SCANDV N2:SE N2:SRVCS N2:STX N2:TRAN N2:WEU P:4295890024",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Changes to the Volvo Group Executive Board",
+      "time": 1751486355450,
+      "timeinms": 1751486355,
+      "pnac": "nPn78W1WHa",
+      "messageid": "Pn78W1WHa_2507022zsHb/CNzZmNVB/YDY+nkfljdTQ5y2wdgFhzYz"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:42:06.1453458Z",
+  "mimetype": "text/plain",
+  "length": 11080,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/62f935a1-30b1-44dc-b6d4-5a12e80bf600.json",
+  "summary": "NHC SAYS JERRY'S CENTER PULLING AWAY FROM THE NORTHERN LEEWARD ISLANDS BUT FLOODING RAINS CONTINUE",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:4 G:4 G:6J G:9 M:1LY M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:E7 M:H M:NY U:D2 U:I N2:AGA N2:AMERS N2:BLR N2:CDTY N2:COM N2:DIS N2:ENV N2:GEN N2:LEN N2:NAMER N2:US N2:WEA N2:WND",
+      "productcodes": "NP:C NP:ELN NP:GRO NP:O NP:OIL NP:PCM NP:SOF",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 1,
+      "updatetype": 1,
+      "headline": "NHC SAYS JERRY'S CENTER PULLING AWAY FROM THE NORTHERN LEEWARD ISLANDS BUT FLOODING RAINS CONTINUE",
+      "time": 1760107325841,
+      "timeinms": 1760107325,
+      "pnac": "nAPN214C4N",
+      "messageid": "APN214C4N_2510101QgIa+scDHJfamFIHPiregfECDAHVnHJC8isOE"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

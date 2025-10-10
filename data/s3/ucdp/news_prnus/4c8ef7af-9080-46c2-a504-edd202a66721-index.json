@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T03:19:04.1269391Z",
+  "mimetype": "text/plain",
+  "length": 25767,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/4c8ef7af-9080-46c2-a504-edd202a66721.json",
+  "summary": "Alfredo alla Scrofa: 111 Years of History for a Roman Culinary Institution",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:106 B:107 B:1380 B:1840 B:255 B:256 B:257 B:80 B:86 B:87 B:89 B:91 B:98 G:3 G:4 G:41 G:5J G:5M G:6 G:6J G:7J G:8W G:9 G:A G:AL G:D3 G:K G:S M:1NN M:1QD M:1WJ M:1WK M:1WL M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 N2:AMERS N2:ARTCRF N2:ASIA N2:ASXPAC N2:CA N2:CCOS N2:CONPR N2:CONPS N2:CONSV N2:CYCP N2:CYCS N2:EASIA N2:EMEA N2:ENTS N2:EUROP N2:EUROPE N2:EZC N2:FOBE N2:FR N2:FURNTR N2:GB N2:HMFRN N2:HSEGDS N2:IT N2:JP N2:LEN N2:NAMER N2:NCYC N2:NEWR N2:RELX N2:RESBR N2:SHOP N2:SHOPAL N2:SRVCS N2:US N2:WEU",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Alfredo alla Scrofa: 111 Years of History for a Roman Culinary Institution",
+      "time": 1751512744044,
+      "timeinms": 1751512744,
+      "pnac": "nPn4Tj5Hga",
+      "messageid": "Pn4Tj5Hga_2507032APPYC8peK4x6AX1Xdrj5pW4UB6zwXMwjyL8QD"
+    }
+  }
+}

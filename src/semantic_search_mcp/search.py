@@ -72,7 +72,6 @@ def hybrid_search(
     # Load FAISS + metadata
     faiss_path = index_dir / "vectors.faiss"
     chunks_path = index_dir / "chunks.jsonl"
-    bm25_path = index_dir / "bm25.pkl"
 
     index = faiss.read_index(str(faiss_path))
     records = _load_chunks(chunks_path)
@@ -84,29 +83,9 @@ def hybrid_search(
     dense_scores = D[0]  # already cosine if normalized
     dense_idxs = I[0]
 
-    # BM25 (optional)
-    bm25_scores = None
-    if bm25_path.exists():
-        with bm25_path.open("rb") as f:
-            bm25 = pickle.load(f)
-        from sklearn.feature_extraction.text import strip_accents_ascii
-        toks = _simple_tokens(strip_accents_ascii(query))
-        bm25_scores_full = bm25.get_scores(toks)
-        # align to dense candidate set by index
-        bm25_scores = bm25_scores_full[dense_idxs]
-
     # Score fusion
     ds = dense_scores
-    if bm25_scores is not None:
-        # min-max normalize both then blend
-        def norm(x):
-            x = x.astype(np.float32)
-            lo, hi = float(x.min()), float(x.max())
-            return (x - lo) / (hi - lo + 1e-9) if hi > lo else np.zeros_like(x)
-        fused = alpha_dense * norm(ds) + (1 - alpha_dense) * norm(bm25_scores)
-        scores = fused
-    else:
-        scores = ds
+    scores = ds        
 
     # Rank
     order = np.argsort(-scores)
@@ -130,7 +109,6 @@ def hybrid_search(
                 "doc_id": rec["doc_id"] if "doc_id" in rec else None,
                 "chunker_id": rec["chunker_id"] if "chunker_id" in rec else None,
                 "embedding_id": rec["embedding_id"] if "embedding_id" in rec else None,
-
             }
         )
     return out

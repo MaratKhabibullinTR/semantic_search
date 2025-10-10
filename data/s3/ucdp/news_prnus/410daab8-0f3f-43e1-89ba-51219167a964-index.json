@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:30:04.8889847Z",
+  "mimetype": "text/plain",
+  "length": 42731,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/410daab8-0f3f-43e1-89ba-51219167a964.json",
+  "summary": "5G-A Users Reach 10 Million in China: Huawei Showcases 5G-A Development and Value of Scenario-based AI",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:163 B:164 B:167 B:172 B:1750 B:177 B:1869 B:278 B:279 B:281 B:282 B:290 B:291 G:1 G:1Z G:28 G:2B G:2I G:2M G:2T G:2W G:3G G:3U G:4 G:47 G:4P G:51 G:52 G:56 G:59 G:5D G:5N G:5Q G:6 G:61 G:64 G:6B G:6G G:6H G:6J G:6L G:6Q G:6S G:6W G:70 G:73 G:77 G:7B G:7H G:7Q G:7S G:82 G:8G G:8X G:9 G:92 G:9Z G:A4 G:A5 G:B1 G:C G:CH G:D G:D3 G:F G:H G:I G:J G:K G:L G:Q G:S G:V M:1P2 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DZ M:32 M:Z R:HWT.UL N2:AE N2:AFR N2:AMERS N2:AO N2:ASIA N2:ASXPAC N2:BH N2:BW N2:CENAFR N2:CHIP N2:CMPELC N2:CMPNY N2:CN N2:COMS N2:COMS1 N2:DZ N2:EAFR N2:EASIA N2:EG N2:EMEA N2:EMRG N2:ET N2:GH N2:GM N2:GW N2:IQ N2:IR N2:ITSE N2:JO N2:KE N2:KW N2:LB N2:LEN N2:LR N2:LS N2:LY N2:MA N2:MEAST N2:MLAISV N2:MV N2:MW N2:MZ N2:NA N2:NAFR N2:NAMER N2:NETSV N2:NEWR N2:NG N2:OM N2:PS N2:PUBL N2:QA N2:SA N2:SAFR N2:SASIA N2:SEMI N2:SL N2:SO N2:SRVCS N2:SWASIA N2:SWIT N2:SY N2:SZ N2:TCOM N2:TECH N2:TEEQ N2:TGLF N2:TMT N2:TN N2:TZ N2:UG N2:US N2:USANY N2:WAFR N2:YE N2:ZA N2:ZM N2:ZW P:4296309931",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "5G-A Users Reach 10 Million in China: Huawei Showcases 5G-A Development and Value of Scenario-based AI",
+      "time": 1751484604535,
+      "timeinms": 1751484604,
+      "pnac": "nPnbvH0y7a",
+      "messageid": "PnbvH0y7a_2507022YG4UZlUSTSDrXspk+ByslPyjlZmwxTty0tUt/"
+    }
+  }
+}

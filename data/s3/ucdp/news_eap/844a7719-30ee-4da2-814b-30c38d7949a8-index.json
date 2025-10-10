@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:29:23.0759498Z",
+  "mimetype": "text/plain",
+  "length": 9473,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/844a7719-30ee-4da2-814b-30c38d7949a8.json",
+  "summary": "NASDAQ RESUMED <SDM.O> AT 10:29 AM",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "E:6 E:6Y E:70 G:4 G:6J G:9 M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 R:SDM.O N2:AMERS N2:LEN N2:MEVN N2:NAMER N2:TRDDIS N2:TRDRES N2:US",
+      "productcodes": "NP:E NP:PSC NP:U",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NASDAQ RESUMED <SDM.O> AT 10:29 AM",
+      "time": 1760106562900,
+      "timeinms": 1760106562,
+      "pnac": "nAQN1JYA3C",
+      "messageid": "AQN1JYA3C_25101023ty8e2Zepn8E9g3UvP2s/eAVrV66PuKrx2WJg"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

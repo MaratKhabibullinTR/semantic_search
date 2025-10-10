@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T15:00:42.2708252Z",
+  "mimetype": "text/plain",
+  "length": 9569,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/0e0bd164-292f-40c9-869d-4bd01b01a913.json",
+  "summary": "NASDAQ TRADE HALT CONTINUES <SDM.O> REASON NOT AVAILABLE AT 11:00 AM",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "E:6 E:6Y E:6Z G:4 G:6J G:9 M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 R:SDM.O N2:AMERS N2:LEN N2:MEVN N2:NAMER N2:TRDDIS N2:TRDHLT N2:US",
+      "productcodes": "NP:E NP:PSC NP:U",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NASDAQ TRADE HALT CONTINUES <SDM.O> REASON NOT AVAILABLE AT 11:00 AM",
+      "time": 1760108442189,
+      "timeinms": 1760108442,
+      "pnac": "nAQN1JYA29",
+      "messageid": "AQN1JYA29_2510102xrHRx1dwImYPyLDcmYjYJOYEW5fVkcnEv4l+0"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

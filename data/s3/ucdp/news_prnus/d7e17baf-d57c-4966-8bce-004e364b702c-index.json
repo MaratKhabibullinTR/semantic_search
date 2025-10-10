@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T17:22:36.4120563Z",
+  "mimetype": "text/plain",
+  "length": 24014,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/d7e17baf-d57c-4966-8bce-004e364b702c.json",
+  "summary": "GTIA announces 2025 UK & Ireland Spotlight Award Winners",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:1215 B:194 B:234 B:239 B:242 B:278 B:279 B:282 G:4 G:6J G:9 G:95 M:1P2 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 N2:AMERS N2:CMPELC N2:CMSS N2:HRSC N2:HRSCON N2:INDS N2:ISER N2:LEN N2:NAMER N2:NEWR N2:SRVCS N2:TECH N2:TEEQ N2:TMT N2:US N2:USAIL",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "GTIA announces 2025 UK & Ireland Spotlight Award Winners",
+      "time": 1751476956323,
+      "timeinms": 1751476956,
+      "pnac": "nPnbNmYsva",
+      "messageid": "PnbNmYsva_2507022zSF5E7ugxeTNgIYC+ClzkXQvGXbZPFobcbm8P"
+    }
+  }
+}

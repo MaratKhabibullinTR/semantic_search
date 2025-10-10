@@ -20,11 +20,31 @@ class Document:
 
 
 def load_local(root: str | Path) -> Iterator[Document]:
-    for p in __iter_local_files(root):
-        text = p.read_text(encoding="utf-8", errors="ignore")
-        yield Document(
-            doc_id=str(p.resolve()), text=text, metadata={"source": str(p.resolve())}
-        )
+    root_path = Path(root)
+    
+    # Check if this is the combined JSON file
+    if root_path.name == "combined_s3_data.json" and root_path.is_file():
+        logger.info(f"Loading documents from combined JSON file: {root_path}")
+        try:
+            with open(root_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            for item in data:
+                yield Document(
+                    doc_id=item['doc_id'],
+                    text=item['content'],
+                    metadata={"source": str(root_path)}
+                )
+        except (json.JSONDecodeError, KeyError, FileNotFoundError) as e:
+            logger.error(f"Error loading combined JSON file {root_path}: {e}")
+            return
+    else:
+        # Original functionality - load from directory of text files
+        for p in __iter_local_files(root):
+            text = p.read_text(encoding="utf-8", errors="ignore")
+            yield Document(
+                doc_id=str(p.resolve()), text=text, metadata={"source": str(p.resolve())}
+            )
 
 
 def load_s3(bucket: str, prefix: str) -> Iterator[Document]:

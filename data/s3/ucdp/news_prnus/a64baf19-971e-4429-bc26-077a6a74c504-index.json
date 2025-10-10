@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T23:31:29.4300685Z",
+  "mimetype": "text/plain",
+  "length": 25048,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/a64baf19-971e-4429-bc26-077a6a74c504.json",
+  "summary": "Cregis at iFX Cyprus 2025: Presents Scalable Infrastructure for Forex Digital Transformation",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:9 B:261 B:262 B:278 B:279 B:282 B:294 B:295 E:1 E:40 E:6Q G:1 G:4 G:6J G:8T G:9 G:A G:AL G:D3 G:Y M:1P2 M:1QD M:1RX M:1SI M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 M:E7 M:NL M:V N2:AMERS N2:BACT N2:BISV N2:BLKCHN N2:CMPELC N2:CPROD N2:CRYCUR N2:CY N2:EMEA N2:EMRG N2:EUROP N2:EUROPE N2:EZC N2:FINS N2:FINTE N2:FRX N2:FTECH N2:GEN N2:INDU N2:ITEC N2:LEN N2:NAMER N2:NEWR N2:PRDLCH N2:SCI N2:SEEU N2:SRVCS N2:TECH N2:TEEQ N2:TMT N2:US",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Cregis at iFX Cyprus 2025: Presents Scalable Infrastructure for Forex Digital Transformation",
+      "time": 1751499089222,
+      "timeinms": 1751499089,
+      "pnac": "nPn6kj5Hba",
+      "messageid": "Pn6kj5Hba_2507022Ssy2g1e7+Ky+nolSzI+T/BuhTxGQ8jva0bzjs"
+    }
+  }
+}

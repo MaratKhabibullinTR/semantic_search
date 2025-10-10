@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:54:10.8839998Z",
+  "mimetype": "text/plain",
+  "length": 24405,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/5b7910ba-7a70-4256-9759-1bcdfa8ea1f9.json",
+  "summary": "Drug-Free Nasal Spray LUCA V-Defense Creates a Protective Shield Against Viruses and Allergies",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:148 B:149 B:153 B:156 B:159 E:1 E:40 E:6Q G:1 G:4 G:6 G:6J G:6S G:9 G:AE G:K G:S M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DY M:32 M:Z N2:AMERS N2:ASIA N2:ASXPAC N2:BACT N2:CMPNY N2:CPROD N2:EASIA N2:EMRG N2:HECA N2:HLTHSE N2:HPAS N2:INDU N2:KR N2:LEN N2:MRCH N2:NAMER N2:NEWR N2:PHMR N2:PRDLCH N2:PRIVT N2:SRVCS N2:US N2:USANY P:5083780811",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Drug-Free Nasal Spray LUCA V-Defense Creates a Protective Shield Against Viruses and Allergies",
+      "time": 1751486050680,
+      "timeinms": 1751486050,
+      "pnac": "nPnkp7Yza",
+      "messageid": "Pnkp7Yza__2507022ZEYZhg586xThLDnH2ukOkahJSmqHRKFVEYdH9"
+    }
+  }
+}

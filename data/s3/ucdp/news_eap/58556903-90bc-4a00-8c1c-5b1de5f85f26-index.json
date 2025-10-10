@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:45:02.3970754Z",
+  "mimetype": "text/plain",
+  "length": 13253,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/58556903-90bc-4a00-8c1c-5b1de5f85f26.json",
+  "summary": "NASDAQ TRADE HALT <QNRX.O> VOLATILITY TRADING PAUSE AT 10:45 AM",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:148 B:156 B:159 B:1736 E:6 E:6Y E:6Z G:1 G:3S G:4 G:6J G:9 G:D3 G:H G:K G:Q G:S M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:2DZ M:Z R:2EB0y.F R:QNRX.O N2:AMERS N2:ASIA N2:ASXPAC N2:CMPNY N2:EMEA N2:EMRG N2:HECA N2:IL N2:LEN N2:MEAST N2:MEVN N2:MRCH N2:MRCH1 N2:NAMER N2:PHMR N2:PUBL N2:SWASIA N2:TRDDIS N2:TRDHLT N2:US P:4295917352",
+      "productcodes": "NP:E NP:PSC NP:U",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NASDAQ TRADE HALT <QNRX.O> VOLATILITY TRADING PAUSE AT 10:45 AM",
+      "time": 1760107502315,
+      "timeinms": 1760107502,
+      "pnac": "nAQN1JYA2T",
+      "messageid": "AQN1JYA2T_2510102rssxVdKWOPdEiM+5rCrmX7yAo53+cN6QFMQOD"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

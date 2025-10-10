@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:42:11.7002451Z",
+  "mimetype": "text/plain",
+  "length": 19472,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/23153b87-1a60-4cf5-8d13-e7ac77e5dbfa.json",
+  "summary": "NHC STORM ADVISORY: Jerry's center pulling away from the northern Leeward Islands but flooding rains continue",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:4 B:136 B:181 B:2 B:219 B:261 G:4 G:5E G:6J G:7X G:9 G:AF G:D3 G:G G:J G:R G:V M:1LY M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:E7 M:H U:23 U:24 U:2R U:3V U:45 U:8 U:C U:I U:L N2:AFR N2:AGA N2:AGRI N2:AMERS N2:BS N2:CARIBN N2:CDTY N2:COM N2:CRU N2:CU N2:CV N2:DIS N2:EMEA N2:ENER N2:ENFF N2:ENV N2:FINS N2:GEN N2:INSR N2:LATAM N2:LEN N2:MOG N2:NAMER N2:NGS N2:NRG N2:ORJ N2:PROD N2:SFTS N2:SHIP08 N2:SRVCS N2:US N2:UTIL N2:WAFR N2:WEA",
+      "productcodes": "NP:ELN NP:GRO NP:O NP:OIL NP:SOF",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NHC STORM ADVISORY: Jerry's center pulling away from the northern Leeward Islands but flooding rains continue",
+      "time": 1760107330865,
+      "timeinms": 1760107330,
+      "pnac": "nAPN214C4K",
+      "messageid": "APN214C4K_2510102dOtc94FdHM+xmNq0av0dieN7a+oyM2aMcyGF3"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

@@ -13,7 +13,7 @@ from semantic_search_mcp.utils import ensure_dir
 from .config import AppConfig
 
 from semantic_search_mcp.chunkers import make_chunker, chunk
-from semantic_search_mcp.dataset import load_local, load_s3, Document
+from semantic_search_mcp.dataset.local_dataset import load_local, load_s3, Document
 from semantic_search_mcp.embedders import make_embeder
 
 

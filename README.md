@@ -15,6 +15,16 @@ https://www.kaggle.com/datasets/jeet2016/us-financial-news-articles
 poetry run python -m server_cli convert-json-corpus-to-txt
 ```
 
+### Download artifacts from S3
+```bash
+poetry run python -m server_cli download-artifacts-from-s3
+```
+
+### Process downloaded artifacts from S3
+```bash
+poetry run python process_s3_files.py
+```
+
 ## Benchmark
 
 ### Index
@@ -29,7 +39,7 @@ poetry run python -m server_cli query --config benchmark_config.yaml --query "re
 
 ### Report
 ```bash
-poetry run python -m server_cli report --config benchmark_config.yaml --qrels qrels.jsonl
+poetry run python -m server_cli report --config benchmark_config.yaml --qrels qrels2.jsonl
 ```
 
 ## Experiments

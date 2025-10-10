@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:16:11.6174789Z",
+  "mimetype": "text/plain",
+  "length": 25740,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/4feefd6d-b955-499c-a6c4-1c171804a437.json",
+  "summary": "Keio Plaza Hotel Tokyo to Regularly Hold Hands-on Workshops of Dyeing, Traditional Craft Rooted in Shinjuku, in July Together with Shinjuku Textile Dyers Association",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:1380 B:1398 B:1840 B:255 B:256 B:257 B:80 B:86 B:87 B:88 B:91 E:1 E:40 E:6Q G:4 G:41 G:6 G:6J G:6S G:9 G:K G:S M:1QD M:1WJ M:1WK M:1WL M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DY M:32 M:Z N2:AMERS N2:ARTCRF N2:ASIA N2:ASXPAC N2:BACT N2:CCOS N2:CMPNY N2:CONPR N2:CONPS N2:CONSV N2:CPROD N2:CYCP N2:CYCS N2:EASIA N2:ENTS N2:FURNTR N2:HMFRN N2:HSEGDS N2:INDU N2:JP N2:LEN N2:NAMER N2:NEWR N2:PRDLCH N2:PRIVT N2:RELX N2:SRVCS N2:STAY N2:STAY1 N2:US N2:USANY P:4296405605",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Keio Plaza Hotel Tokyo to Regularly Hold Hands-on Workshops of Dyeing, Traditional Craft Rooted in Shinjuku, in July Together with Shinjuku Textile Dyers Association",
+      "time": 1751483771330,
+      "timeinms": 1751483771,
+      "pnac": "nPn5KDk6da",
+      "messageid": "Pn5KDk6da_25070223nFxt7/fD76WIsnfYcwLTZ3iwxl9aB0Mupbnl"
+    }
+  }
+}

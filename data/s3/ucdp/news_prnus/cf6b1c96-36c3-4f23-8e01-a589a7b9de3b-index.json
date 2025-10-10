@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T01:07:32.3249544Z",
+  "mimetype": "text/plain",
+  "length": 31980,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/cf6b1c96-36c3-4f23-8e01-a589a7b9de3b.json",
+  "summary": "FOUNDATION SOURCE ACQUIRES PACIFIC FOUNDATION SERVICES, SOLIDIFYING POSITION AS LEADING PROVIDER OF PHILANTHROPIC SOLUTIONS",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:172 B:174 B:261 B:262 B:278 B:279 B:282 B:294 B:295 E:1 E:J E:R G:4 G:6J G:9 G:97 M:1P2 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 N2:AMERS N2:BACT N2:BISV N2:CMPELC N2:DEAL1 N2:FINS N2:FINTE N2:FTECH N2:INDU N2:LEN N2:MRG N2:NAMER N2:NEWR N2:SOFW N2:SRVCS N2:SWIT N2:TECH N2:TEEQ N2:TMT N2:US N2:USACT",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "FOUNDATION SOURCE ACQUIRES PACIFIC FOUNDATION SERVICES, SOLIDIFYING POSITION AS LEADING PROVIDER OF PHILANTHROPIC SOLUTIONS",
+      "time": 1751504852106,
+      "timeinms": 1751504852,
+      "pnac": "nPn3lTW3Ta",
+      "messageid": "Pn3lTW3Ta_2507032NDbZwMOOj6OT/i0LsaY2d0hlEpEgZC60CIyvN"
+    }
+  }
+}

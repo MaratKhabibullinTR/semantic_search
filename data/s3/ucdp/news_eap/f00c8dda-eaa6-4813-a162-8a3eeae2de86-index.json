@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T15:02:21.6662229Z",
+  "mimetype": "text/plain",
+  "length": 16787,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/f00c8dda-eaa6-4813-a162-8a3eeae2de86.json",
+  "summary": "U.S. STOCKS EXTEND FALL, NASDAQ <.IXIC> DOWN 1.00%",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:1 G:4 G:6J G:9 I:17 M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CX M:2CY M:2CZ M:2D0 M:2D1 M:3F R:.IXIC R:.DJI R:.SPX N2:AGA N2:AMERS N2:EQIDX N2:LEN N2:MKTREP N2:NAMER N2:STX N2:US P:69354037659 P:69669760432",
+      "productcodes": "NP:AUF NP:AUP NP:C NP:D NP:DNP NP:E NP:ELN NP:EMK NP:G NP:GRO NP:M NP:MF NP:MNI NP:MTL NP:NAT NP:NAW NP:O NP:OIL NP:PCM NP:PGE NP:PSC NP:PTD NP:RNP NP:SOF NP:T NP:U NP:UKI NP:Z",
+      "attribution": "RTRS",
+      "language": "EN",
+      "urgency": 1,
+      "updatetype": 1,
+      "headline": "U.S. STOCKS EXTEND FALL, NASDAQ <.IXIC> DOWN 1.00%",
+      "time": 1760108541587,
+      "timeinms": 1760108541,
+      "pnac": "nEMQ87NC1N",
+      "messageid": "EMQ87NC1N_2510101qz2jI39I8dbS+1s1MKHcO/boCaB+1rct3ehSD"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

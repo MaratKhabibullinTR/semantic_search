@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:24:20.0913519Z",
+  "mimetype": "text/plain",
+  "length": 42857,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/75e239e3-f8da-41bf-b26e-28a35c34f55e.json",
+  "summary": "HashKey Chain Partners with GF Securities (Hong Kong) to Launch First Tokenized Security with End-to-End On-Chain Deployment and Issuance",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:9 B:1856 B:261 B:262 B:278 B:279 B:282 B:294 B:295 B:297 E:1 E:40 E:6Q G:1 G:3H G:6 G:B1 G:K G:S M:1P2 M:1QD M:1RX M:1SI M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DY M:32 M:E7 M:NL M:V M:Z N2:ASIA N2:ASXPAC N2:BACT N2:BISV N2:BLKCC N2:BLKCC1 N2:BLKCHN N2:CMPELC N2:CMPNY N2:CN N2:CPROD N2:CRYCUR N2:EASIA N2:EMRG N2:FINS N2:FINTE N2:FRX N2:FTECH N2:GEN N2:HK N2:INDU N2:ITEC N2:LEN N2:NEWR N2:PRDLCH N2:PRIVT N2:SCI N2:SRVCS N2:TECH N2:TEEQ N2:TMT P:5079167722",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "HashKey Chain Partners with GF Securities (Hong Kong) to Launch First Tokenized Security with End-to-End On-Chain Deployment and Issuance",
+      "time": 1751484259763,
+      "timeinms": 1751484259,
+      "pnac": "nPn4txH7ba",
+      "messageid": "Pn4txH7ba_2507022NJbTitI+fxxUz5hJggAd+tTGJb7Hd+6VxqYA1"
+    }
+  }
+}

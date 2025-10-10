@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:20:14.2623875Z",
+  "mimetype": "text/plain",
+  "length": 13042,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/39e57e00-310d-4435-9707-e61bddf2636f.json",
+  "summary": "RUSSIAN C.BANK: SETS OFFICIAL ROUBLE RATE FOR OCTOBER 11 AT 81.1898 ROUBLES PER U.S. DOLLAR (PVS RATE - 81.4103)",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "A:8 A:9 B:127 B:128 B:1615 B:261 B:262 G:1 G:38 G:A G:AJ G:B G:D3 G:E G:K G:S M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:8 M:S2 N2:AGA N2:ASIA N2:ASXPAC N2:BISV N2:BISV08 N2:BNKS N2:BNKS1 N2:BSVC N2:CBRU N2:CEEU N2:CEN N2:CISC N2:EMEA N2:EMRG N2:EUROP N2:EUROPE N2:FINS N2:FINS08 N2:FRX N2:LEN N2:MMT N2:MNEY N2:NASIA N2:RU N2:SRVCS",
+      "productcodes": "NP:D NP:E NP:M NP:MF NP:T",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 1,
+      "updatetype": 1,
+      "headline": "RUSSIAN C.BANK: SETS OFFICIAL ROUBLE RATE FOR OCTOBER 11 AT 81.1898 ROUBLES PER U.S. DOLLAR (PVS RATE - 81.4103)",
+      "time": 1760106014170,
+      "timeinms": 1760106014,
+      "pnac": "nEMQ87NB8O",
+      "messageid": "EMQ87NB8O_2510101AlDW7bhsAkYBGw6iOURtLVdZwpL6MUDkIq3JC"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

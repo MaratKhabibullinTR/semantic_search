@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T01:01:47.0654438Z",
+  "mimetype": "text/plain",
+  "length": 26514,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/629b9558-eba7-4366-aad2-2bad4a7a9fd1.json",
+  "summary": "AARP Commits Thousands of Dollars to Strengthen 5 Communities Across Mississippi",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:148 B:149 B:153 E:1 E:4A E:E G:4 G:4Z G:6J G:9 M:18 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 M:E7 M:I4 N2:AMERS N2:BACT N2:CORGOV N2:ESG N2:GEN N2:HECA N2:HLTHSE N2:HPAS N2:INDU N2:LEN N2:MAN N2:MNGISS N2:NAMER N2:NEWR N2:RTM N2:SOCI N2:SRVCS N2:US N2:USAMS",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "AARP Commits Thousands of Dollars to Strengthen 5 Communities Across Mississippi",
+      "time": 1751504506862,
+      "timeinms": 1751504506,
+      "pnac": "nPn4PgnPya",
+      "messageid": "Pn4PgnPya_2507032Fq0sGypBt87rJ6t0wXCOdWSPXuI1GqXmPaEf0"
+    }
+  }
+}

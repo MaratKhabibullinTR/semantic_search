@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T14:56:57.3632603Z",
+  "mimetype": "text/plain",
+  "length": 12275,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/a8cd5a06-ce14-4bb7-800c-77818ee1b581.json",
+  "summary": "NASDAQ TRADE HALT <SHPH.O> VOLATILITY TRADING PAUSE AT 10:56 AM",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:148 B:156 B:1729 B:277 E:6 E:6Y E:6Z G:4 G:6J G:9 M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:2DZ M:Z R:SHPH.O N2:AMERS N2:CMPNY N2:HECA N2:LEN N2:MEVN N2:NAMER N2:PHAR N2:PHAR1 N2:PHMR N2:PUBL N2:TRDDIS N2:TRDHLT N2:US P:5067940631",
+      "productcodes": "NP:E NP:PSC NP:U",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NASDAQ TRADE HALT <SHPH.O> VOLATILITY TRADING PAUSE AT 10:56 AM",
+      "time": 1760108217144,
+      "timeinms": 1760108217,
+      "pnac": "nAQN1JYA2F",
+      "messageid": "AQN1JYA2F_2510102AXQHpFldJ6EK7whAxhPkIpb6pk+ICOy/uRaZu"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

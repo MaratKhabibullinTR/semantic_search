@@ -1,0 +1,33 @@
+{
+  "datetime": "2025-10-10T15:00:41.9076985Z",
+  "mimetype": "text/plain",
+  "length": 13175,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_eap/2025-10-10/5e9b89a1-7051-4ffa-a91f-1cd3f03bc7ac.json",
+  "summary": "NASDAQ RESUMED <QNRX.O> AT 11:00 AM",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_eap",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:148 B:156 B:159 B:1736 E:6 E:6Y E:70 G:1 G:3S G:4 G:6J G:9 G:D3 G:H G:K G:Q G:S M:1QD M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2CZ M:2D0 M:2D1 M:2DZ M:Z R:2EB0y.F R:QNRX.O N2:AMERS N2:ASIA N2:ASXPAC N2:CMPNY N2:EMEA N2:EMRG N2:HECA N2:IL N2:LEN N2:MEAST N2:MEVN N2:MRCH N2:MRCH1 N2:NAMER N2:PHMR N2:PUBL N2:SWASIA N2:TRDDIS N2:TRDRES N2:US P:4295917352",
+      "productcodes": "NP:E NP:PSC NP:U",
+      "attribution": "RTRS",
+      "language": "en",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "NASDAQ RESUMED <QNRX.O> AT 11:00 AM",
+      "time": 1760108441697,
+      "timeinms": 1760108441,
+      "pnac": "nAQN1JYA2C",
+      "messageid": "AQN1JYA2C_2510102teoz3PyONZStEgBExnQ9HZxE4600feSxkGF0K"
+    }
+  },
+  "encoding": null,
+  "filetype": null,
+  "s3bucket": null,
+  "s3object": null,
+  "source": null,
+  "url": null,
+  "to": null,
+  "from": null
+}

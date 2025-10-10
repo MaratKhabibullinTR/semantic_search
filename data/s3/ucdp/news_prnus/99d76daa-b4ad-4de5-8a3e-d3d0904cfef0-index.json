@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T02:24:13.9291703Z",
+  "mimetype": "text/plain",
+  "length": 27365,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/99d76daa-b4ad-4de5-8a3e-d3d0904cfef0.json",
+  "summary": "CKGSB Dean Li Haitao Illuminates on China's AI Trajectory at 2025 Summer Davos",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:172 B:177 B:1869 B:234 B:239 B:242 B:278 B:290 B:291 B:318 B:50 G:1 G:1Z G:28 G:4 G:4P G:51 G:56 G:59 G:5Q G:6 G:64 G:6J G:6S G:7B G:7Q G:8G G:9 G:92 G:A4 G:B1 G:D3 G:F G:H G:K G:Q G:S M:1P2 M:1QD M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 M:E7 M:F M:I4 N2:ACEDS N2:AE N2:AMERS N2:ASIA N2:ASXPAC N2:BH N2:CMSS N2:CN N2:EASIA N2:EDU N2:EMEA N2:EMRG N2:ENVS N2:GEN N2:INDS N2:IQ N2:IR N2:ISER N2:ITSE N2:JO N2:KW N2:LB N2:LEN N2:MEAST N2:MLAISV N2:NAMER N2:NETSV N2:NEWR N2:OM N2:PS N2:QA N2:SA N2:SOCI N2:SRVCS N2:SWASIA N2:SWIT N2:SY N2:TCOM N2:TECH N2:TGLF N2:TMT N2:US N2:USANY N2:YE",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "CKGSB Dean Li Haitao Illuminates on China's AI Trajectory at 2025 Summer Davos",
+      "time": 1751509453689,
+      "timeinms": 1751509453,
+      "pnac": "nPn800krSa",
+      "messageid": "Pn800krSa_2507032oTIPAdLlbEiEy11ZJgnIPhu8oD9l4eLGZOxRs"
+    }
+  }
+}

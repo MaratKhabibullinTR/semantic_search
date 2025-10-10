@@ -9,7 +9,8 @@ from semantic_search_mcp.benchmark.query import run_query
 from semantic_search_mcp.config import Config
 from semantic_search_mcp.indexer import build_index
 from semantic_search_mcp.search import hybrid_search
-from semantic_search_mcp.dataset import convert_json_to_txt
+from semantic_search_mcp.dataset.local_dataset import convert_json_to_txt
+from semantic_search_mcp.dataset.s3_dataset import download_artifacts_from_s3 as download_artifacts
 
 from semantic_search_mcp.logging_utils import setup_logging
 from semantic_search_mcp.utils import ensure_dir
@@ -113,6 +114,13 @@ def report(
         agg = quality_unsupervised(cfg, list(queries), out, k)
         print("\nUnsupervised metrics written to:", out)
         print(agg.to_string(index=False))
+
+
+@app.command()
+def download_artifacts_from_s3():
+    download_artifacts()
+
+
 
 if __name__ == "__main__":
     app()

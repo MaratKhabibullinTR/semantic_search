@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T00:53:55.6795721Z",
+  "mimetype": "text/plain",
+  "length": 21869,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/0cca4179-c2c2-4781-98a7-dd0da346fb8c.json",
+  "summary": "Graphic Packaging Holding Company to Host Second Quarter 2025 Earnings Conference Call on July 29",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:106 B:107 B:1133 B:117 B:227 B:255 B:27 B:31 B:33 B:98 G:4 G:6J G:9 G:9F M:1NN M:1QD M:1WJ M:1WK M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DZ M:32 M:Z R:GPK.N N2:AMERS N2:APRE N2:BMAT N2:CMPNY N2:CONPR N2:CONPS N2:CRDBX N2:CRDBX1 N2:CYCS N2:FOBE N2:HSEHLD N2:LEN N2:NAMER N2:NCYC N2:NEWR N2:PACK N2:PUBL N2:SHOP N2:SHOPAL N2:SRVCS N2:US N2:USAGA P:4295910043",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Graphic Packaging Holding Company to Host Second Quarter 2025 Earnings Conference Call on July 29",
+      "time": 1751504035510,
+      "timeinms": 1751504035,
+      "pnac": "nPn6w2HS6a",
+      "messageid": "Pn6w2HS6a_2507032fRWlee0oNxMppos9bxzYgpNTcw9x2tdO9r1bg"
+    }
+  }
+}

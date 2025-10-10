@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T17:22:41.3820518Z",
+  "mimetype": "text/plain",
+  "length": 34906,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/28e46ce8-3f7e-43ed-8abf-adc7751827d5.json",
+  "summary": "Pearson School Report 2025: At least 1.9 million students not ready for their next stage of learning",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:1457 B:255 B:259 B:260 B:278 B:279 B:282 B:318 B:86 B:96 G:21 G:3 G:7J G:A G:D3 M:1P2 M:1QD M:1WJ M:1WL M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DZ M:32 M:E7 M:F M:I4 M:Z R:PSON.L N2:ACEDS N2:CCOS N2:CMPELC N2:CMPNY N2:CONPS N2:CONSV N2:CYCS N2:EDU N2:EMEA N2:EUROP N2:EUROPE N2:GB N2:GBE N2:GEN N2:LEN N2:MDIA N2:NEWR N2:PUBL N2:READ N2:READ1 N2:SOCI N2:SRVCS N2:TECH N2:TEEQ N2:TMT N2:WEU P:4295894824",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Pearson School Report 2025: At least 1.9 million students not ready for their next stage of learning",
+      "time": 1751476961124,
+      "timeinms": 1751476961,
+      "pnac": "nPn29hXJQa",
+      "messageid": "Pn29hXJQa_25070228EFdOWpCBvJ/hgZ6/eLIo7CrcEPrQG4b7sKnf"
+    }
+  }
+}

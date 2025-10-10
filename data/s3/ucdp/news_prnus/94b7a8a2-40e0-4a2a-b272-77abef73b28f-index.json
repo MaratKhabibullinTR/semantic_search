@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-03T05:08:47.4453429Z",
+  "mimetype": "text/plain",
+  "length": 24942,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-03/94b7a8a2-40e0-4a2a-b272-77abef73b28f.json",
+  "summary": "Autohome Inc. Announces Results of 2024 Annual General Meeting",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "B:1433 B:234 B:244 B:255 B:259 B:261 B:262 B:278 B:279 B:282 B:56 B:67 B:71 B:86 B:93 E:1 E:4D G:1 G:6 G:B1 G:K G:S M:1P2 M:1QD M:1WJ M:1WK M:1WL M:1WN M:2CM M:2CN M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:2DZ M:32 M:Z R:2518.HK N2:ADVMK N2:ADVMK1 N2:ASIA N2:ASXPAC N2:AUTO N2:BACT N2:BISV N2:CCOS N2:CMPELC N2:CMPNY N2:CN N2:CONPR N2:CONPS N2:CONSV N2:CYCS N2:EASIA N2:EMRG N2:FINS N2:FRGT N2:INDS N2:INDU N2:LEN N2:MDIA N2:MEET1 N2:NEWR N2:PUBL N2:RRLF N2:SRVCS N2:TECH N2:TEEQ N2:TMT N2:TRAN P:5036161422",
+      "productcodes": "NP:CNR NP:PRN",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Autohome Inc. Announces Results of 2024 Annual General Meeting",
+      "time": 1751519327357,
+      "timeinms": 1751519327,
+      "pnac": "nPn7X74fKa",
+      "messageid": "Pn7X74fKa_2507032RsFWPEKNrDDQEAwA3LwxZU6jNSeyd6mHKD1jG"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "datetime": "2025-07-02T19:16:19.6800475Z",
+  "mimetype": "text/plain",
+  "length": 9843,
+  "s3uri": "s3://eap-qa-eu-west-1-source-content/eap_feed_proxy/ucdp/news_prnus/2025-07-02/dccbdf91-d8cd-4ced-82ac-ba6207c069c6.json",
+  "summary": "Following Is a Test Release",
+  "createdby": "EAP/FeedService",
+  "provider": "ucdp",
+  "topic": "news_prnus",
+  "providerspecificmetadata": {
+    "ucdp": {
+      "topiccodes": "M:1QD M:2CM M:2CP M:2CQ M:2CR M:2CS M:2CT M:2CU M:2CV M:2CY M:2D1 M:32 N2:LEN N2:NEWR",
+      "productcodes": "NP:TEST",
+      "attribution": "PRN",
+      "language": "en-US",
+      "urgency": 3,
+      "updatetype": 2,
+      "headline": "Following Is a Test Release",
+      "time": 1751483779597,
+      "timeinms": 1751483779,
+      "pnac": "nPn1B4592a",
+      "messageid": "Pn1B4592a_2507022knXqC8FmzO48ad3LdQ2FezThX2LASMS/BsHeL"
+    }
+  }
+}

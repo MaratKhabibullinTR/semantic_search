@@ -1,6 +1,7 @@
 corpora:
   - type: local
-    path: ./data/corpus
+    # path: ./data/corpus
+    path: ./data/combined_s3_data.json
 
 chunkers:
   - id: spacy_sents
