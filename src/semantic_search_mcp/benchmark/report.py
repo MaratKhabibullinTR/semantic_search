@@ -34,7 +34,9 @@ def quality_with_qrels(
 
         for cid, triples in retrieved.items():
             doc_ids = [t[2].get("doc_id") for t in triples]
-            relevances = [1 if d in rel_ids else 0 for d in doc_ids]
+            # Deduplicate doc_ids to avoid counting multiple chunks from same document
+            unique_doc_ids = list(set(doc_ids))
+            relevances = [1 if d in rel_ids else 0 for d in unique_doc_ids]
 
             rec = {
                 "combo": cid,
